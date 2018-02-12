@@ -20,6 +20,11 @@ docker build https://github.com/MSIR2018/CFI-CTF.git#master:Docker/DockerFiles/T
 docker run -d --name=example -h example --net=ctf-network --ip 192.168.0.1 template-image
 ```
 
+## List containers:
+```
+docker ps -a
+```
+
 ## Remove containers:
 - Example container
 ```
