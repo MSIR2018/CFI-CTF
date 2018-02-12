@@ -17,7 +17,7 @@ docker build https://github.com/MSIR2018/CFI-CTF.git#master:Docker/DockerFiles/T
 ## Run containers:
 - Example container
 ```
-docker run -d --name=example -h example --net=ctf-network --ip 192.168.0.2 template-image
+docker run -d --name=example -h example --net=ctf-network --ip 192.168.0.2 -p 8080:80 template-image
 ```
 
 ## List containers:
