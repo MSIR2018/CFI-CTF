@@ -10,4 +10,4 @@ RUN apt-get update -y && \
 RUN rm -R /var/www/html/*
 COPY data/ /var/www/html/
 
-CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start"]
+CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && tail -f /dev/null"]
