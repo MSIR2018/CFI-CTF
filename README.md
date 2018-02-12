@@ -37,7 +37,7 @@ docker rm -f example
 docker rmi -f template-image
 ```
 
-## Public Status of current working
+## Public status of current working
 - [x] Mounting plateform
 - [ ] Create web user based interface
 - [ ] Creating of first Activities
