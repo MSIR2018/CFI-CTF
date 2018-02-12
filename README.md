@@ -1,4 +1,4 @@
-# Docker deployement of CTF Project 2018 @CFI
+# Docker deployement of CTF Project 2018 @CFI Montigny
 *Builded by Gwendal Orinel, Alexandre Minaret, Gary Bernard, Mohamed Zenati & Romain Chevrier*
 
 ## Create docker network :
