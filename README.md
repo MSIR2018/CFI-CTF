@@ -10,7 +10,7 @@ docker network create --subnet=192.168.0.0/24 ctf-network
 ### Build containers image
 - Build image of demo container
 ```
-docker build https://github.com/MSIR2018/CFI-CTF.git#master:Docker/Activities/Template -t template-image
+docker build https://github.com/MSIR2018/CFI-CTF.git#master:Docker/Challenges/example -t template-image
 ```
 
 ### Run containers:
