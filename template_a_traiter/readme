@@ -1,3 +1,7 @@
 template injection SQL
  -->password team A 4dm1n1str@t0r
  -->password team B @dm1n1str4t0r
+ 
+template faille Cisco
+ -->password enable team A en4ble_6sko
+ -->password enable team B en@ble_6sko
