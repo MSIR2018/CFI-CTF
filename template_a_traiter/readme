@@ -5,3 +5,7 @@ template injection SQL
 template faille Cisco
  -->password enable team A en4ble_6sko
  -->password enable team B en@ble_6sko
+
+template faille Web
+ -->password team A hDufjdki156
+ -->password team B hufþdki156
