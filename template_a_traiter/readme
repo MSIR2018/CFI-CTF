@@ -9,3 +9,7 @@ template faille Cisco
 template faille Web
  -->password team A hDufjdki156
  -->password team B hufþdki156
+
+template faille FTP
+ -->password team A cdts3500
+ -->password team B cdts3600
