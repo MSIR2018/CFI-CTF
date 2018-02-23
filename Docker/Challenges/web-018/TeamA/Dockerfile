@@ -13,7 +13,8 @@ mysqladmin -u root password Azerty@123
 RUN rm -R /var/www/html/*
 COPY data/ /var/www/html/
 
-CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && tail -f /dev/null"]
-
 #conf Mysql
-RUN mysql --user=root --password=Azerty@123 < /var/www/html/bdd.sql
+
+RUN service mysql start && mysql --user=root --password=Azerty@123 < /var/www/html/bdd.sql
+
+CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && tail -f /dev/null"]
