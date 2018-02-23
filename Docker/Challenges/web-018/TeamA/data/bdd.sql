@@ -8,4 +8,4 @@ login varchar (20),
 password varchar(20),
 Primary Key (id_user));
 
-insert into utilisateurs values ('','user','4dm1n1str@tor');
+insert into utilisateurs values (,'user','4dm1n1str@tor');
