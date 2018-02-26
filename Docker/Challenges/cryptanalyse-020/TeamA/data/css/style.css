@@ -50,7 +50,7 @@ a:hover {
     overflow: hidden;
     position: relative;
     margin: 150px auto 0;
-    background: url("../blacksnake.jpg") center no-repeat #2c3e50;
+    background: url("blacksnake.jpg") center no-repeat #2c3e50;
     /*-webkit-box-shadow: 0 17px 50px 0 rgba(0, 0, 0, .19), 0 12px 15px 0 rgba(0, 0, 0, .24);
             box-shadow: 0 17px 50px 0 rgba(0, 0, 0, .19), 0 12px 15px 0 rgba(0, 0, 0, .24)*/
 
