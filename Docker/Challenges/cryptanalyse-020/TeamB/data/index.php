@@ -37,7 +37,7 @@
 </div>
 <div class="mhn-ui-info">Trouver le bon schéma pour pouvoir déverrouiller le téléphone ;)</div>
 
-<div class="mhn-ui-info"><a href="https://drive.google.com/file/d/1X_uZP-0IO7J_5ODWdkXIN2tTTgDoVCoc/view?usp=sharing" target="_blank" style="color: lawngreen; font-size: 34px">Télécharger ici le dossier des fichiers source android</a></div>
+<div class="mhn-ui-info"><a href="https://drive.google.com/uc?id=1X_uZP-0IO7J_5ODWdkXIN2tTTgDoVCoc&export=download" target="_blank" style="color: lawngreen; font-size: 34px">Télécharger ici le dossier des fichiers source android</a></div>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 
 
