@@ -25,9 +25,6 @@ echo 'vous êtes connectés en tant que '.$resultat['login'].' voici le mot de p
 
 </head>
 <body>
-<?php
-echo $
-?>
 	<form method="post" action="index.php">
 			<p>login <input type="text" name="login" /></p>
 			<p>password <input type="password" name="password"/></p>
