@@ -8,7 +8,7 @@
         <p>Site en construction...</p>
     </center>
     Reste à faire :
-    <li>Finir la connexion à la bdd</li>
+    <li>Finir la page de connexion à la bdd</li>
     <li>Faire une page profil utilisateur</li>
     <li>Mettre du CSS (bootsrap)</li>
 </div>
