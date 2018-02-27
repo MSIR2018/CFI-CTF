@@ -10,6 +10,6 @@
     Reste à faire :
     <li>Finir la page de connexion à la bdd</li>
     <li>Faire une page profil utilisateur</li>
-    <li>Mettre du CSS (bootsrap)</li>
+    <li>Mettre du CSS (bootstrap)</li>
 </div>
 </html>
