@@ -1,4 +1,4 @@
 AuthName "Page d'administration protégée, veuillez vous identifier"
 AuthType Basic
-AuthUserFile "C:/wamp/www/docker/php-htpasswd/admin/.htpasswd"
+AuthUserFile "/var/www/html/admin/.htpasswd"
 Require valid-user
