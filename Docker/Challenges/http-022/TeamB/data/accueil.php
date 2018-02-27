@@ -52,7 +52,7 @@
         <h1>Site en constuction</h1>
         <p>mon premier site Bootstrap (Site en construction)</p>
         <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="#" role="button">View navbar docs &raquo;</a>
         </p>
       </div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
