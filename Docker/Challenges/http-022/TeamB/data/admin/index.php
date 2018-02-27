@@ -1,0 +1,1 @@
+<center><h1>Ma page d'administration</h1></br>Bien joué le mot de passe entré peut être validé comme un flag</center>
