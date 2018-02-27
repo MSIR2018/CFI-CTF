@@ -1,0 +1,1 @@
+<!-- $db = new PDO('mysql:host=localhost;dbname=site', 'root', 'M4bddest$ecure123'); -->
