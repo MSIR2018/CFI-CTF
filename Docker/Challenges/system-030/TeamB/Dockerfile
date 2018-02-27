@@ -6,6 +6,7 @@ EXPOSE 80
 RUN apt-get update -y && \
         apt-get install -qy apache2 libapache2-mod-php php openssh-server
 RUN useradd toto -d /home/toto -m -s /bin/bash -p tototiti
+RUN echo -e "tototiti\ntototiti\n" | passwd toto
 
 #import web
 RUN rm -R /var/www/html/*
