@@ -1,5 +1,5 @@
 <?php
-if(strstr($_SERVER['HTTP_HOST'], '11.0')){
+if(strstr($_SERVER['HTTP_HOST'], '12.0')){
 	session_id ('ohohcbi3njoueJ3su6slefl4g');
 }
 
