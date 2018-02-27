@@ -10,6 +10,6 @@ apt-get install -qy apache2 libapache2-mod-php php
 RUN rm -R /var/www/html/*
 COPY data/ /var/www/html/
 
-RUN echo -e '<Directory "/var/www/html">\nAllowOverride All\n</Directory>' >>  /etc/apache2/sites-available/000-default.conf
+RUN echo '<Directory "/var/www/html">\nAllowOverride All\n</Directory>' >>  /etc/apache2/sites-available/000-default.conf
 
 CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && tail -f /dev/null"]
