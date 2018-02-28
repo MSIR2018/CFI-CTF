@@ -8,8 +8,8 @@ RUN apt-get update -y && \
 RUN useradd toto -d /home/toto -m -s /bin/bash -p tototiti
 RUN echo "tototiti\ntototiti\n" | passwd toto
 RUN echo "FlagA" > /home/toto/flag.txt && \
-chown root:root flag.txt && \
-chmod 000 flag.txt && \
+chown root:root /home/toto/flag.txt && \
+chmod 000 /home/toto/flag.txt && \
 echo "#!/bin/bash \n zip -r /var/backup.zip /var/www/" > /var/backup.sh && \
 chmod 777 /var/backup.sh && \
 echo "* * * * * root bash /var/backup.sh" >> /etc/crontab
