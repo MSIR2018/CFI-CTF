@@ -2,7 +2,7 @@ FROM ubuntu
 ENTRYPOINT []
 
 RUN apt-get update -y && \
-        apt-get install -qy openssh-server sudo
+        apt-get install -qy openssh-server sudo vim
 RUN useradd toto -d /home/toto -m -s /bin/bash -p tototiti
 RUN echo "tototiti\ntototiti\n" | passwd toto
 RUN echo "Login: toto \nPassword: tototiti" > /etc/sshbanner
