@@ -7,6 +7,8 @@ RUN apt-get update -y && \
         apt-get install -qy apache2 libapache2-mod-php php openssh-server cron zip nano
 RUN useradd toto -d /home/toto -m -s /bin/bash -p tototiti
 RUN echo "tototiti\ntototiti\n" | passwd toto
+RUN echo "Login: toto \nPassword: tototiti" > /etc/sshbanner
+RUN echo "Banner /etc/sshbanner" >> /etc/ssh/sshd_config
 RUN echo "FlagA" > /home/toto/flag.txt && \
 chown root:root /home/toto/flag.txt && \
 chmod 000 /home/toto/flag.txt && \
