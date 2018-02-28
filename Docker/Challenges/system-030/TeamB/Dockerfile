@@ -17,4 +17,4 @@ chmod 777 /var/backup.sh && \
 echo "* * * * * root bash /var/backup.sh" >> /etc/crontab
 
 
-CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && /etc/init.d/ssh start && tail -f /dev/null"]
+CMD ["/bin/bash", "-c", "/etc/init.d/ssh start && tail -f /dev/null"]
