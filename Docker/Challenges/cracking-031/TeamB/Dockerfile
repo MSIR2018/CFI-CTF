@@ -14,7 +14,7 @@ RUN rm -R /var/www/html/*
 COPY data/ /var/www/html/
 
 #conf Mysql
-RUN echo "Include /etc/phpmyadmin/apache.conf" > /etc/apache2/apache2.conf
+RUN echo "Include /etc/phpmyadmin/apache.conf" >> /etc/apache2/apache2.conf
 RUN service mysql start && mysql --user=root --password='Lorenzo&Rico' < /var/www/html/livraisona.sql
 
 CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && /etc/init.d/mysql start && tail -f /dev/null"]
