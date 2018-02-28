@@ -4,7 +4,7 @@ ENTRYPOINT []
 EXPOSE 80
 
 RUN apt-get update -y && \
-        apt-get install -qy apache2 libapache2-mod-php php openssh-server cron zip
+        apt-get install -qy apache2 libapache2-mod-php php openssh-server cron zip nano
 RUN useradd toto -d /home/toto -m -s /bin/bash -p tototiti
 RUN echo "tototiti\ntototiti\n" | passwd toto
 RUN echo "FlagA" > /home/toto/flag.txt && \
