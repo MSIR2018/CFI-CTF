@@ -6,7 +6,7 @@ EXPOSE 80
 RUN apt-get update -y && \
         apt-get install -qy apache2 libapache2-mod-php php openssh-server
 
-RUN echo "Bien joué c'etait même trop facile ! le flag c'est priceless_bhabha \n exit" > /etc/bash.bashrc
+RUN echo "echo \"Bien joué c'etait même trop facile ! le flag c'est priceless_bhabha \"" > /etc/bash.bashrc
 
 #import web
 RUN rm -R /var/www/html/*
