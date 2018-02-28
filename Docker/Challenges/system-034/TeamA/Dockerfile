@@ -9,7 +9,7 @@ RUN echo "Login: toto \nPassword: tototiti" > /etc/sshbanner
 RUN echo "Banner /etc/sshbanner" >> /etc/ssh/sshd_config
 
 RUN echo "mcGyverIsTheBestManEver" > /home/toto/flag.txt  && chmod 000 /home/toto/flag.txt
-RUN echo "user    ALL=(ALL) NOPASSWD:/usr/bin/find *" >> /etc/sudoers
+RUN echo "toto    ALL=(ALL) NOPASSWD:/usr/bin/find *" >> /etc/sudoers
 
 
 CMD ["/bin/bash", "-c", "/etc/init.d/ssh start && tail -f /dev/null"]
