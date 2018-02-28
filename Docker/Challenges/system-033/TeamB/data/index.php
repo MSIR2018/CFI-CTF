@@ -90,7 +90,6 @@
             </nav>
             <div class="row">
                 <div class="col-md-12">
-                    Sauvegarde du site web toute les minutes dans le dossier web
                     <div class="carousel slide" id="carousel-245797">
                         <ol class="carousel-indicators">
                             <li class="active" data-slide-to="0" data-target="#carousel-245797">
@@ -141,3 +140,5 @@
         </div>
     </div>
 </div>
+
+<!--Sauvegarde du site web toute les minutes dans le dossier web-->
