@@ -6,7 +6,7 @@ EXPOSE 80
 RUN apt-get update -y && \
         apt-get install -qy apache2 libapache2-mod-php php openssh-server
 
-RUN echo "Bien joue c'etait meme trop facile ! le flag c'est gallant_elion \n exit" > /etc/motd && rm /etc/update-motd.d/*
+RUN echo "Bien joue c'etait meme trop facile ! le flag c'est gallant_elion " > /etc/motd && rm /etc/update-motd.d/*
 
 
 RUN rm -R /var/www/html/*
