@@ -6,7 +6,7 @@ EXPOSE 80
 RUN apt-get update -y && \
         apt-get install -qy apache2 libapache2-mod-php php openssh-server
 
-RUN echo "Bien joue c'etait meme trop facile ! le flag c'est priceless_bhabha" > /etc/motd && rm /etc/update-motd.d/*
+RUN echo "Bien joue c'etait meme trop facile ! le flag c'est priceless_bhabha" > /etc/motd && rm /etc/update-motd.d/* /etc/legal
 
 
 RUN rm -R /var/www/html/*
