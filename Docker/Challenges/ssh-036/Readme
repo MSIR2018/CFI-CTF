@@ -1,2 +1,10 @@
 FLAG A : priceless_bhabha
 FLAG B : gallant_elion
+
+CODE :
+var links = document.getElementsByTagName("a"); 
+for (var i = 0; i < links.length; i++) { 
+		var data= links[i].href.replace('http://11.0.0.13/','')
+		links[i].setAttribute("data", data); 
+		links[i].href = atob(links[i].getAttribute('data'));
+}
