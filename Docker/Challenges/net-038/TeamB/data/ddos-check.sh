@@ -5,9 +5,10 @@ b=`cat /sys/class/net/eth0/statistics/rx_bytes`
 by=$((b-a))
 kb=$((by/1024))
 mb=$((kb/1024))
+target=8
 
-if [ $mb -gt 8 ];then
-echo $kb
+if [ $mb -gt $target ];then
+echo $mb
 fi
 
 #done
