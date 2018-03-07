@@ -11,4 +11,4 @@ RUN rm -R /var/www/html/*
 COPY data/ /var/www/html/
 
 
-CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && while true; do if [ \"$(bash /var/www/html/ddos-check.sh)\" ]; then echo \"<center>Outch ! Bien joue le flag est : LesDevsDeLaTeamSiicSontVraimentLesMeilleurs</center>\" > /var/www/html/index.html ;fi ; sleep 1 ;done"]
+CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && while true; do if [ \"$(bash /var/www/html/ddos-check.sh)\" ]; then echo \"<center>Outch ! Bien joue le flag est : LesDevsDeLaTeamSiicSontVraimentLesMeilleurs</center>\" > /var/www/html/index.php ;fi ; sleep 1 ;done"]
