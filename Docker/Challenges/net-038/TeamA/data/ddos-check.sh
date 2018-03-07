@@ -1,6 +1,8 @@
+#!/bin/bash
 #while true ; do
 a=`cat /sys/class/net/eth0/statistics/rx_bytes`
-sleep 1
+
+sleep 1;
 b=`cat /sys/class/net/eth0/statistics/rx_bytes`
 by=$((b-a))
 kb=$((by/1024))
