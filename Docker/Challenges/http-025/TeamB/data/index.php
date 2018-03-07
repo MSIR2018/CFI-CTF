@@ -21,7 +21,7 @@ Mot de passe : <input type="password" name="pswrd"/>
 <script language="javascript">
 function check(form)
 {
- if(form.userid.value == "johnny.doe.ctf@gmail.com" && form.pswrd.value == "john1sth3b3s7")
+ if(form.userid.value == "johnny.doe.cfi@gmail.com" && form.pswrd.value == "john1sth3b3s7")
   {
     window.open('bravo.html')
   }
