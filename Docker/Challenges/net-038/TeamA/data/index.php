@@ -6,6 +6,6 @@
 </br>
 Attention pensez bien au type d'attaque, le but n'est pas de le rendre hors service definitivement mais surcharger sa bande passante..</p>
 Bande passante actuelle: <?php echo shell_exec('bash current.sh'); ?> kb/s </br>
-Objectif de surcharge: 8 mb/s
+Objectif de surcharge: 10 mb/s
 </center>
 <html>
