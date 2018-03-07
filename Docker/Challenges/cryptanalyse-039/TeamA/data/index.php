@@ -12,7 +12,7 @@
     <?php
     $nom='doe';
     $prenom='johnny';
-    $date='1960-02-11';
+    $date='1960-02-15';
     $adresse='34 rue de la madeleine';
     $lieu='guyancourt';
     $email='johnny.doe.cfi@gmail.com';
@@ -23,7 +23,7 @@
     $dog='garou';
     $metier='bucheron';
     $marque_voiture='renault';
-    $model_voiture='4l';
+    $model_voiture='r4';
     $imat_voiture='cr-461-mh';
     ?>
     <form method="post" action="index.php">
