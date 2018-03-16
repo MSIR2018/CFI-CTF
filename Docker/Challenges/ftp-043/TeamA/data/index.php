@@ -3,7 +3,7 @@
 if(isset($_POST['valider']))
 
 {	
-		if(($ftp = ftp_connect("localhost",21))==false)
+		if(($ftp = ftp_connect("ftp://localhost",21))==false)
 		{
 			echo 'erreur de connexion';
 		}
