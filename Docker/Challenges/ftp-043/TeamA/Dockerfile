@@ -9,11 +9,9 @@ RUN apt-get update -y && \
 RUN groupadd ftpgroup 
 RUN groupadd ftpuser 
 RUN cd /etc/pure-ftpd/auth
-RUN ls -s ../conf/PureDB 50puredb
-RUN cd /home
-RUN mkdir ftp
-RUN cd ftp
-RUN mkdir bob
+RUN ln -s /etc/pure-ftpd/conf/PureDB 50puredb
+RUN mkdir /home/ftp
+RUN mkdir /home/ftp/bob
 RUN chown -R ftpuser:ftpgroup /home/ftp/bob
 RUN echo "bouffeunefrite\nbouffeunefrite\n" | pure-pw useradd bob -u ftpuser -g ftpgroup -d /home/ftp/bob
 
