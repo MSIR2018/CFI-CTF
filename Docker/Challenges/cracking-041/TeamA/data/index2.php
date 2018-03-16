@@ -7,7 +7,7 @@ if(($_GET['username']=="root") && ($_GET['password']=="myapkpassword")) {
     ?>
 
 
-    <form action="index.php" method="GET">
+    <form action="start.php" method="GET">
         Username : <input type="text" name="username"><br>
         Password : <input type="text" name="password"><br>
         <input type="submit" value="submit">
