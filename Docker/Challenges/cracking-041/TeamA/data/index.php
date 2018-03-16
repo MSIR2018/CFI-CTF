@@ -24,7 +24,7 @@
 
     </div>
 
-    <form action="index.php" method="POST">
+    <form action="start.php" method="POST">
         <!--<a href="index.php?start"><button class="btn btn-primary">Commencer</button></a>-->
         <input type="submit" value="Commencer">
     </form>
