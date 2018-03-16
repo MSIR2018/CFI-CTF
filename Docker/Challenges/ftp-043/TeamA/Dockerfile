@@ -7,7 +7,7 @@ ENV MYSQL_ROOT_PASSWORD Azerty@123
 RUN apt-get update -y && \
         apt-get install -qy apache2 libapache2-mod-php php pure-ftpd pure-ftpd-common
 RUN groupadd ftpgroup 
-RUN groupadd ftpuser 
+RUN useradd ftpuser 
 RUN cd /etc/pure-ftpd/auth
 RUN ln -s /etc/pure-ftpd/conf/PureDB 50puredb
 RUN mkdir /home/ftp
