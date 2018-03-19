@@ -14,7 +14,7 @@ RUN mkdir /home/ftp
 RUN mkdir /home/ftp/tom
 RUN chown -R ftpuser:ftpgroup /home/ftp/tom
 RUN echo "duselpourlesfrites\nduselpourlesfrites\n" | pure-pw useradd bob -u ftpuser -g ftpgroup -d /home/ftp/tom
-
+RUN /etc/init.d/pure-ftpd restart
 
 #import web
 RUN rm -R /var/www/html/*
