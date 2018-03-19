@@ -14,7 +14,7 @@ RUN mkdir /home/ftp
 RUN mkdir /home/ftp/bob
 RUN chown -R ftpuser:ftpgroup /home/ftp/bob
 RUN echo "bouffeunefrite\nbouffeunefrite\n" | pure-pw useradd bob -u ftpuser -g ftpgroup -d /home/ftp/bob
-
+RUN /etc/init.d/pure-ftpd restart
 
 #import web
 RUN rm -R /var/www/html/*
