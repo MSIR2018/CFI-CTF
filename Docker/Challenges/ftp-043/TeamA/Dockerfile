@@ -19,5 +19,5 @@ RUN echo "bouffeunefrite\nbouffeunefrite\n" | pure-pw useradd bob -u ftpuser -g 
 RUN rm -R /var/www/html/*
 COPY data/ /var/www/html/
 
-CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && /etc/init.d/pure-ftpd start && tail -f /dev/null"]
+CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && tail -f /dev/null"]
 
