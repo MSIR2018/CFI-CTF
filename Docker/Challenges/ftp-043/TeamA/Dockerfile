@@ -3,7 +3,7 @@ ENTRYPOINT []
 
 EXPOSE 80
 
-ENV MYSQL_ROOT_PASSWORD Azerty@123
+
 RUN apt-get update -y && \
         apt-get install -qy apache2 libapache2-mod-php php pure-ftpd pure-ftpd-common
 RUN groupadd ftpgroup 
