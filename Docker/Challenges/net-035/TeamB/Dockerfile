@@ -1,4 +1,10 @@
-FROM ubuntu
+ROM ubuntu
 ENTRYPOINT []
 
-CMD ["/bin/bash", "-c", "while [ true ]; do  echo -n 'Update in progress: J3SU1SL3FL4GB' >/dev/udp/12.34.56.78/6666; sleep 2 ;done"]
+RUN apt-get update -y && \
+apt-get install -qy apache2 libapache2-mod-php php
+
+RUN rm -R /var/www/html/*
+COPY data/ /var/www/html/
+
+CMD ["/bin/bash", "-c", "/etc/init.d/apache2 start && tail -f /dev/null"]
