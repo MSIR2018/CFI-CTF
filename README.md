@@ -50,3 +50,4 @@ docker rmi -f template-image
 - [x] Creating of first Activities
 - [x] Plateform ready to public use
 - [x] Video presentation
+- [x] Developement ended
