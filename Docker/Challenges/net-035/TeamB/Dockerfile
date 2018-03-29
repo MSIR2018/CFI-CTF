@@ -1,4 +1,4 @@
-ROM ubuntu
+FROM ubuntu
 ENTRYPOINT []
 
 RUN apt-get update -y && \
