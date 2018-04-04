@@ -14,8 +14,8 @@ mysqladmin -u root password 'Azerty78'
 ### Import web
 ```
 rm -R /var/www/*
-wget -o /tmp/ https://github.com/MSIR2018/CFI-CTF/raw/master/Docker/Host/Data/backupweb.zip
-wget -o /tmp/ https://github.com/MSIR2018/CFI-CTF/raw/master/Docker/Host/Data/backupsql.sql
+wget -O /tmp/backupweb.zip https://github.com/MSIR2018/CFI-CTF/raw/master/Docker/Host/Data/backupweb.zip
+wget -O /tmp/backupsql.sql https://github.com/MSIR2018/CFI-CTF/raw/master/Docker/Host/Data/backupsql.sql
 unzip /tmp/backupweb.zip -d /var/www/
 ```
 
