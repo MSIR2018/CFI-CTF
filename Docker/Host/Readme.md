@@ -1,1 +1,2 @@
-# Fichiers de configuration du serveur Maitre de l'interface
+## Fichiers de config du serveur Host
+- Require 2 network 'teamA' & 'teamB'
