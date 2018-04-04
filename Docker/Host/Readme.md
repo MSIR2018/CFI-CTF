@@ -83,4 +83,4 @@ docker network create --driver=macvlan --subnet=12.0.0.0/8 --gateway=12.255.255.
 ```
 
 ### Deploy container
-Use /var/www/html/popapps.sh script to manage container or vm
+Use /var/www/html/pop-apps.sh script to manage container or vm
