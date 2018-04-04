@@ -81,3 +81,6 @@ broadcast 10.255.255.255
 docker network create --driver=macvlan --subnet=11.0.0.0/8 --gateway=11.255.255.254 -o parent=br301  -o macvlan_mode=bridge  teamA
 docker network create --driver=macvlan --subnet=12.0.0.0/8 --gateway=12.255.255.254 -o parent=br302 -o macvlan_mode=bridge  teamB
 ```
+
+### Deploy container
+Use popapps.sh script to manage container or vm
