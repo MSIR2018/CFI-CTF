@@ -14,8 +14,9 @@ alt="IMAGE ALT TEXT HERE" width="440" height="380" border="10" /></a>
 - [x] Video presentation 
 - [x] Development ended
 
-## Deployement Breach
-Automatic or manual with pop-apps.sh script in Host web directory
+## Deployement Container or VM
+- Based on Docker and KVM (only for winxp breachs)
+- Automatic or manual with pop-apps.sh script in Host web directory
 
 ## Deployement Host
 [Instructions](/Docker/Host/Readme.md)
