@@ -1,23 +1,23 @@
-## deploy srv host
+## Deployement SRV Host
 
-### install softs
+### Install softs
 apt-get update -y && \
 apt-get install -qy apache2 libapache2-mod-php php mysql-server php-mysql phpmyadmin sudo zip wget vim
 
-### set bdd passwd
+### Set bdd passwd
 mysqladmin -u root password 'Azerty78'
 
-### import web
+### Import web
 rm -R /var/www/*
 wget -o /tmp/ https://github.com/MSIR2018/CFI-CTF/raw/master/Docker/Host/Data/backupweb.zip
 wget -o /tmp/ https://github.com/MSIR2018/CFI-CTF/raw/master/Docker/Host/Data/backupsql.sql
 unzip /tmp/backupweb.zip -d /var/www/
 
-### authorize apache2 to execute popapps.sh
+### Authorize apache2 to execute popapps.sh
 echo "www-data ALL=(ALL) NOPASSWD:/bin/bash /var/www/html/pop-apps.sh *" >> /etc/sudoers
 
 
-### conf Mysql
+### Conf Mysql
 echo "Include /etc/phpmyadmin/apache.conf" >> /etc/apache2/apache2.conf
 mysql --user=root --password='Azerty78' < /tmp/backupsql.sql
 
