@@ -15,7 +15,7 @@ alt="IMAGE ALT TEXT HERE" width="440" height="380" border="10" /></a>
 - [x] Development ended
 
 ## Deployement Breach
-Automatic or manual with popapps.sh script in web Host web directory
+Automatic or manual with pop-apps.sh script in Host web directory
 
 ## Deployement Host
 [Instructions](/Docker/Host/Readme.md)
