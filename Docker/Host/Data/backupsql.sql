@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `CTF`
 --
-CREATE DATABASE IF NOT EXISTS `CTF` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+DROP DATABASE IF EXISTS CTF
+CREATE DATABASE `CTF` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `CTF`;
 
 -- --------------------------------------------------------
